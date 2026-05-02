@@ -2,7 +2,7 @@
 
 A high-performance, visually stunning professional portfolio built with the latest web technologies. This project showcases my expertise in building scalable applications, real-time systems, and modern user interfaces.
 
-![Portfolio Preview](https://picsum.photos/seed/portfolio/1200/600)
+<img width="1869" height="861" alt="Screenshot 2026-05-03 020959" src="https://github.com/user-attachments/assets/bea10d3c-ed96-477d-99d0-17d505041821" />
 
 ## 🛠️ Tech Stack
 

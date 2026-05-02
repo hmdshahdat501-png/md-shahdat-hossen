@@ -12,7 +12,7 @@ import {
   CircleCheck,
 } from "lucide-react";
 import Image from "next/image";
-import image_1 from "../assets/professional-image.png";
+import image_1 from "../assets/professional-img.png";
 import image_2 from "../assets/professional-image-2.png";
 
 const roles = [

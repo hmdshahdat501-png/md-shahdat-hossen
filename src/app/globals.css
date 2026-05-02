@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
+
+  --color-primary: #353a40;
+  --color-secondary: #5a5e62;
+  --color-surface-container: #f8f9fa;
+  --color-outline-variant: #e9ecef;
+
+  --animate-wave: wave 2.5s infinite;
+  --animate-glow: glow 2s linear infinite;
+
+  @keyframes glow {
+    0% { transform: translate(-100%, -100%) rotate(0deg); }
+    100% { transform: translate(100%, 100%) rotate(0deg); }
+  }
+
+  @keyframes wave {
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(14.0deg) }
+    20% { transform: rotate(-8.0deg) }
+    30% { transform: rotate(14.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(10.0deg) }
+    60% { transform: rotate( 0.0deg) }
+    100% { transform: rotate( 0.0deg) }
+  }
+
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+}
+
+@layer base {
+  :root {
+    --color-primary: #353a40;
+    --color-primary-rgb: 53, 58, 64;
+    --color-secondary: #5a5e62;
+  }
+
+  .dark {
+    --color-primary: #f8f9fa;
+    --color-primary-rgb: 248, 249, 250;
+    --color-secondary: #e9ecef;
+  }
+
+  .clip-shard {
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+  }
+
+  .clip-hex {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
+
+  .clip-triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    scroll-margin-top: 5rem;
+  }
+
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+.timeline-line {
+  width: 2px;
+  @apply bg-zinc-200;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tech-card {
+  filter: grayscale(1);
+  transition: all 0.3s ease;
+}
+
+.tech-card:hover {
+  filter: grayscale(0);
+}

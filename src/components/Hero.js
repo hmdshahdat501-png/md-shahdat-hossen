@@ -77,7 +77,7 @@ export default function Hero() {
       id="home"
       className="pt-32 pb-20 px-6 md:px-24 max-w-7xl mx-auto relative overflow-hidden transition-colors duration-300"
     >
-      <div className="flex flex-col md:flex-row items-center gap-6 lg:gap-12">
+      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 lg:gap-12">
         {/* Left Social Icons */}
         <div className="hidden md:flex flex-col gap-6 absolute left-12 top-1/2 -translate-y-1/2">
           {[
@@ -188,7 +188,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
-          className="relative flex justify-center md:justify-end mt-12 md:mt-0"
+          className="relative flex justify-center md:justify-end mt-8 md:mt-0"
         >
           <div className="relative w-80 h-80 md:w-90 md:h-90 lg:w-112.5 lg:h-112.5 group">
             {/* FIXED: removed negative margin */}

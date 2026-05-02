@@ -40,7 +40,7 @@ export default function Qualification() {
   }
 
   return (
-    <section className="py-24 px-6 md:px-24 max-w-7xl mx-auto text-center transition-colors duration-300">
+    <section className="px-6 md:px-24 max-w-7xl mx-auto text-center transition-colors duration-300">
       <h2 className="text-4xl md:text-5xl font-extrabold mb-4 dark:text-white">Qualification</h2>
       <p className="text-secondary dark:text-gray-400 text-sm mb-16 uppercase tracking-widest font-bold">My educational journey</p>
       

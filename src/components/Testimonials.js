@@ -60,7 +60,7 @@ export default function Testimonials() {
   }
 
   return (
-    <section className="py-24 bg-white dark:bg-zinc-950 transition-colors duration-300 overflow-hidden">
+    <section className="bg-white dark:bg-zinc-950 transition-colors duration-300 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-24 text-center mb-16">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
@@ -103,7 +103,7 @@ export default function Testimonials() {
               <motion.div 
                 key={idx}
                 whileHover={{ y: -10, scale: 1.02 }}
-                className="shrink-0 w-100 relative group p-0.5 rounded-[2.5rem] overflow-hidden transition-all duration-500"
+                className="shrink-0 w-100 relative group p-0.5 rounded-3xl overflow-hidden transition-all duration-500"
               >
                 <motion.div 
                   className="absolute inset-[-150%] opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-0 pointer-events-none" 
@@ -114,7 +114,7 @@ export default function Testimonials() {
                   transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
                 />
 
-                <div className="relative bg-white dark:bg-zinc-900 p-10 rounded-[2.45rem] overflow-hidden h-full flex flex-col z-10 transition-all duration-500 border border-zinc-100 dark:border-zinc-800 shadow-sm">
+                <div className="relative bg-white dark:bg-zinc-900 p-10 rounded-[22px] overflow-hidden h-full flex flex-col z-10 transition-all duration-500 border border-zinc-100 dark:border-zinc-800 shadow-sm">
                   <div className="flex items-center gap-4 mb-8">
                     <div className="w-16 h-16 rounded-2xl overflow-hidden ring-4 ring-zinc-50 dark:ring-zinc-800 group-hover:ring-zinc-100 dark:group-hover:ring-zinc-700 transition-all relative">
                       <Image 

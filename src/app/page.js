@@ -12,9 +12,9 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-white dark:bg-[#0f1113] text-primary dark:text-gray-100 font-sans selection:bg-primary selection:text-white transition-colors duration-300">
+    <div className="space-y-16 bg-white dark:bg-[#0f1113] text-primary dark:text-gray-100 font-sans selection:bg-primary selection:text-white transition-colors duration-300">
       <Header />
-      <main>
+      <main className="space-y-16">
         <Hero sectionId="home" />
         <About sectionId="about" />
         <TechStack sectionId="tech" />

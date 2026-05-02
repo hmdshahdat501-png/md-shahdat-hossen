@@ -39,7 +39,7 @@ export default function Skills() {
     );
   }
   return (
-    <section id="skills" className="py-24 bg-white dark:bg-[#0f1113] text-zinc-900 dark:text-gray-100 overflow-hidden transition-colors duration-300">
+    <section id="skills" className="pb-16 bg-white dark:bg-[#0f1113] text-zinc-900 dark:text-gray-100 overflow-hidden transition-colors duration-300">
       <div className="max-w-6xl mx-auto px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-zinc-900 dark:text-white">
@@ -54,7 +54,7 @@ export default function Skills() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="relative p-0.5 rounded-[2.5rem] overflow-hidden group/container shadow-xl dark:shadow-zinc-950/50"
+            className="relative p-0.5 rounded-3xl overflow-hidden group/container shadow-xl dark:shadow-zinc-950/50"
           >
             <motion.div
               className="absolute inset-[-200%] bg-[conic-gradient(from_0deg,transparent_0deg,transparent_300deg,#3b82f6_330deg,transparent_360deg)]"
@@ -62,7 +62,7 @@ export default function Skills() {
               transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
             />
             
-            <div className="relative bg-zinc-50 dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-800 p-8 rounded-[2.4rem] h-full transition-colors">
+            <div className="relative bg-zinc-50 dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-800 p-4 rounded-[22px] h-full transition-colors">
               <h3 className="font-bold mb-10 text-xl flex items-center gap-3 justify-start dark:text-gray-100">
                 <span className="p-2 bg-blue-500/10 rounded-lg">
                   <Layout className="w-6 h-6 text-blue-500" />
@@ -70,7 +70,7 @@ export default function Skills() {
                 Frontend
               </h3>
               
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {skills.frontend.map((skill, idx) => (
                   <motion.div 
                     key={idx}
@@ -98,7 +98,7 @@ export default function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="relative p-0.5 rounded-[2.5rem] overflow-hidden group/container shadow-xl dark:shadow-zinc-950/50"
+            className="relative p-0.5 rounded-3xl overflow-hidden group/container shadow-xl dark:shadow-zinc-950/50"
           >
             <motion.div
               className="absolute inset-[-200%] bg-[conic-gradient(from_0deg,transparent_0deg,transparent_300deg,#a855f7_330deg,transparent_360deg)]"
@@ -106,7 +106,7 @@ export default function Skills() {
               transition={{ duration: 15, repeat: Infinity, ease: "linear", delay: 1 }}
             />
 
-            <div className="relative bg-zinc-50 dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-800 p-8 rounded-[2.4rem] h-full transition-colors">
+            <div className="relative bg-zinc-50 dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-800 p-4 rounded-[22px] h-full transition-colors">
               <h3 className="font-bold mb-10 text-xl flex items-center gap-3 justify-start dark:text-gray-100">
                 <span className="p-2 bg-purple-500/10 rounded-lg">
                   <Server className="w-6 h-6 text-purple-500" />
@@ -114,7 +114,7 @@ export default function Skills() {
                 Backend
               </h3>
               
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {skills.backend.map((skill, idx) => (
                   <motion.div 
                     key={idx}
@@ -142,7 +142,7 @@ export default function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="relative p-0.5 rounded-[2.5rem] overflow-hidden group/container shadow-xl dark:shadow-zinc-950/50"
+            className="relative p-0.5 rounded-3xl overflow-hidden group/container shadow-xl dark:shadow-zinc-950/50"
           >
             <motion.div
               className="absolute inset-[-200%] bg-[conic-gradient(from_0deg,transparent_0deg,transparent_300deg,#f97316_330deg,transparent_360deg)]"
@@ -150,7 +150,7 @@ export default function Skills() {
               transition={{ duration: 15, repeat: Infinity, ease: "linear", delay: 2 }}
             />
 
-            <div className="relative bg-zinc-50 dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-800 p-8 rounded-[2.4rem] h-full transition-colors">
+            <div className="relative bg-zinc-50 dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-800 p-4 rounded-[22px] h-full transition-colors">
               <h3 className="font-bold mb-10 text-xl flex items-center gap-3 justify-start dark:text-gray-100">
                 <span className="p-2 bg-orange-500/10 rounded-lg">
                   <Wrench className="w-6 h-6 text-orange-500" />
@@ -158,7 +158,7 @@ export default function Skills() {
                 Tools
               </h3>
               
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {skills.tools.map((skill, idx) => (
                   <motion.div 
                     key={idx}

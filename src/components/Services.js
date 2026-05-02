@@ -66,7 +66,7 @@ const [mounted, setMounted] = useState(false);
 
 
   return (
-    <section id="services" className="py-24 px-6 md:px-24 max-w-7xl mx-auto text-center bg-zinc-50/50 dark:bg-zinc-950/20 overflow-hidden transition-colors duration-300">
+    <section id="services" className="pb-16 px-6 md:px-24 max-w-7xl mx-auto text-center bg-zinc-50/50 dark:bg-zinc-950/20 overflow-hidden transition-colors duration-300">
       <h2 className="text-4xl md:text-5xl font-extrabold mb-4 reveal-services text-zinc-900 dark:text-white">Services</h2>
       <p className="text-zinc-500 dark:text-gray-400 text-sm uppercase tracking-widest font-bold mb-16">What I offer</p>
       
@@ -78,7 +78,7 @@ const [mounted, setMounted] = useState(false);
             key={idx}
             className="group relative"
           >
-            <div className="relative p-0.5 rounded-[2.5rem] overflow-hidden h-full group-hover:-translate-y-2.5 transition-all duration-500 shadow-sm hover:shadow-2xl dark:shadow-zinc-950/50">
+            <div className="relative p-0.5 rounded-3xl overflow-hidden h-full group-hover:-translate-y-2.5 transition-all duration-500 shadow-sm hover:shadow-2xl dark:shadow-zinc-950/50">
               <motion.div 
                 className="absolute inset-[-150%] opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-0 pointer-events-none" 
                 style={{
@@ -88,7 +88,7 @@ const [mounted, setMounted] = useState(false);
                 transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
               />
               
-              <div className="relative bg-white dark:bg-zinc-900 p-12 rounded-[2.4rem] h-full text-left z-10 overflow-hidden transition-colors">
+              <div className="relative bg-white dark:bg-zinc-900 p-12 rounded-[22px] h-full text-left z-10 overflow-hidden transition-colors">
                 <div className="absolute top-0 right-0 p-8 opacity-[0.03] dark:opacity-[0.07] group-hover:scale-150 transition-transform duration-700">
                    <Icon size={120} color={service.glowColor} />
                 </div>
@@ -139,7 +139,7 @@ const [mounted, setMounted] = useState(false);
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
-              className="relative w-full max-w-md p-[1.5px] rounded-[3rem] overflow-hidden shadow-2xl"
+              className="relative w-full max-w-md p-0.5 rounded-3xl overflow-hidden shadow-2xl"
             >
               <motion.div 
                 className="absolute inset-[-200%] opacity-100" 
@@ -147,13 +147,13 @@ const [mounted, setMounted] = useState(false);
                   background: `conic-gradient(from 0deg, transparent 0deg, transparent 300deg, ${activeService.glowColor} 330deg, transparent 360deg)`
                 }}
                 animate={{ rotate: 360 }}
-                transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
+                transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
               />
 
-              <div className="relative bg-white dark:bg-zinc-900 rounded-[2.9rem] p-10 sm:p-12 overflow-hidden text-left z-10 transition-colors">
+              <div className="relative bg-white dark:bg-zinc-900 rounded-[22px] p-10 sm:p-12 overflow-hidden text-left z-10 transition-colors">
                 <button 
                   onClick={() => setActiveService(null)}
-                  className="absolute top-8 right-8 w-10 h-10 flex items-center justify-center bg-white dark:bg-zinc-800 hover:bg-zinc-100 dark:hover:bg-zinc-700 rounded-full transition-all text-zinc-400 hover:text-zinc-900 dark:hover:text-white border border-zinc-100 dark:border-zinc-700 shadow-sm"
+                  className='absolute top-8 right-8 w-10 h-10 flex items-center justify-center bg-white dark:bg-zinc-800 hover:bg-zinc-100 dark:hover:bg-zinc-700 rounded-full transition-all text-zinc-400 hover:text-zinc-900 dark:hover:text-white border border-zinc-100 dark:border-zinc-700 shadow-sm'
                 >
                   <X size={20} />
                 </button>

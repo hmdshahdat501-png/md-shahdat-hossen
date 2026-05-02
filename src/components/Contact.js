@@ -88,7 +88,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 px-6 md:px-24 max-w-7xl mx-auto text-center bg-zinc-50/10 dark:bg-zinc-950/20 relative transition-colors duration-300">
+    <section id="contact" className="px-6 md:px-24 max-w-7xl mx-auto text-center bg-zinc-50/10 dark:bg-zinc-950/20 relative transition-colors duration-300">
       <h2 className="text-4xl md:text-5xl font-extrabold mb-4 reveal-contact text-zinc-900 dark:text-white">Get in Touch</h2>
       <p className="text-zinc-500 dark:text-gray-400 text-sm uppercase tracking-widest font-bold mb-16">Contact Me</p>
       
@@ -115,7 +115,7 @@ export default function Contact() {
                   transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
                 />
                 
-                <div className="relative bg-white dark:bg-zinc-900 p-6 rounded-[1.45rem] border border-zinc-100 dark:border-zinc-800 transition-all duration-500 flex flex-col items-center text-center gap-2 z-10">
+                <div className="relative bg-white dark:bg-zinc-900 p-6 rounded-[22px] border border-zinc-100 dark:border-zinc-800 transition-all duration-500 flex flex-col items-center text-center gap-2 z-10">
                   <div className="text-zinc-900 dark:text-blue-400 mb-1">
                     <Mail size={24} strokeWidth={1.5} />
                   </div>

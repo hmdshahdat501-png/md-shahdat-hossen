@@ -51,7 +51,7 @@ export default function Hero() {
       clearInterval(roleInterval);
       clearInterval(imgInterval);
     };
-  }, []);
+  }, [profileImages.length]);
 
   const scrollToAbout = () => {
     const aboutSection = document.getElementById("about");

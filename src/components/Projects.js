@@ -4,6 +4,14 @@ import { motion, AnimatePresence } from "framer-motion";
 import { initTextReveal } from "../lib/animations";
 import { Code, Rocket } from "lucide-react";
 import Image from "next/image";
+import techwave from "../assets/project_2.png"
+import image2 from "../assets/project_2.png"
+import image3 from "../assets/project_2.png"
+import image4 from "../assets/project_2.png"
+import image5 from "../assets/project_2.png"
+import image6 from "../assets/project_2.png"
+import image7 from "../assets/project_2.png"
+import image8 from "../assets/project_2.png"
 
 const projects = [
   {
@@ -80,15 +88,13 @@ const projects = [
     demo: "#",
   },
   {
-    title: "Lumina: Smart Home Hub",
-    description:
-      "IoT dashboard for controlling smart household devices via WebSocket protocols with zero latency.",
-    tags: ["React", "WebSocket", "Node.js", "MQTT"],
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDW0EgyLPVRqBqltS41Qaj3xWeuk4-0hnn8htpg_LrpP4qxcX3XHqkKBzXmL2XmEvVg3Qc0NBIFASLYgaHDYqSIN8RpKQjqNflRGjkZsjvybseZo6piq1bW28ny9n2wnl9LmdceKeILLVQ-VswszRLXE_30SMBBXiNXICUd4Dg2hx7lZ_-QQnOotCosVfb9K2R2RkSJX7V4TpBFwHMEiWTVAnFShdYEDe731xWB7uiCGsn40MS1AdQ0Wlip4fDQ2qy5W7k3q5VI3v0",
-    github: "#",
-    demo: "#",
-  },
+  title: "TechWave: Cinematic Podcast Experience",
+  description: "A high-impact, dark-themed landing page featuring vibrant gradients and modern glassmorphism effects. It showcases advanced CSS techniques for soundwave visualizations and sleek feature cards, built entirely without JavaScript to ensure maximum performance.",
+  tags: ["HTML5", "Tailwind CSS", "Modern UI", "Dark Theme"],
+  image: "your_image_path_for_techwave", // Use your uploaded image path here
+  github: "#",
+  demo: "#",
+},
   {
     title: "Octane: Performance Benchmarking",
     description:

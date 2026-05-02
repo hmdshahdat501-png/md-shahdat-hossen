@@ -243,7 +243,6 @@ export default function Contact() {
               className={`relative overflow-hidden w-full lg:w-fit px-12 py-5 rounded-2xl font-bold flex items-center justify-center gap-3 transition-all shadow-xl group ${
                 isSuccess ? 'bg-emerald-500 text-white' : 'bg-[linear-gradient(135deg,#4b5964,#2f3a42,#0f1113)] dark:bg-[linear-gradient(135deg,#1e293b,#0f172a,#020617)] text-white shadow-[#1e293b]/20 hover:shadow-[#1e293b]/40'
               }`}
-              suppressHydrationWarning
             >
               {!isSuccess && !isSubmitting && (
                 <div className="absolute inset-0 w-[200%] h-[200%] bg-linear-to-br from-white/60 via-white/30 to-transparent -translate-x-full -translate-y-full animate-glow transition-all"></div>

@@ -46,7 +46,7 @@ export default function Footer() {
           </a>
         </div>
         <p className="text-[10px] text-zinc-500 dark:text-gray-500 font-medium tracking-widest uppercase">
-          © {currentYear} Copyright: Md Shakil Islam
+          © {currentYear} Copyright: Md Shahdat Hossen
         </p>
       </div>
 

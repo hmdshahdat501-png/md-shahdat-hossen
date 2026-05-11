@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { initTextReveal } from "../lib/animations";
 import { Download, Award, Briefcase, Headphones } from "lucide-react";
 import Image from "next/image";
-import image from "../assets/3D image2.png";
+import image from "../assets/1000055466 (1).png";
 
 const stats = [
   { icon: Award, label: "Experience", sub: "3 Years Working" },

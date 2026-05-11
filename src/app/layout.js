@@ -3,7 +3,7 @@ import { Providers } from "./providers";
 import CustomCursor from "../components/CustomCursor";
 
 export const metadata = {
-  title: "Md Shakil Islam - Portfolio",
+  title: "Md Shahdat Hossen- Portfolio",
   description: "Senior Software Engineer portfolio",
 };
 

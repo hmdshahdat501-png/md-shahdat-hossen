@@ -74,9 +74,9 @@ export default function Header() {
             className="flex items-center gap-2"
           >
             <div className="w-10 h-10 bg-primary/10 dark:bg-white/10 rounded-lg flex items-center justify-center font-black text-primary dark:text-white border border-primary/20 dark:border-white/20">
-              SI
+              SH
             </div>
-            <span className="font-extrabold text-xl tracking-tighter text-primary dark:text-white">SHAKIL.</span>
+            <span className="font-extrabold text-xl tracking-tighter text-primary dark:text-white">SHAHDAT.</span>
           </motion.div>
         </div>
         

@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 flex flex-col items-center gap-8">
         <div className="flex gap-6">
           <a 
-            href="https://www.linkedin.com/in/md-shakil-islam-sagor/" 
+            href="https://www.linkedin.com/in/shahdat-hossen/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="w-10 h-10 rounded-full border border-zinc-200 dark:border-zinc-800 flex items-center justify-center text-zinc-600 dark:text-gray-400 hover:text-[#a855f7] dark:hover:text-blue-400 hover:border-[#a855f7] dark:hover:border-blue-400 transition-all bg-white dark:bg-zinc-900 shadow-sm"
@@ -29,7 +29,7 @@ export default function Footer() {
             <Linkedin size={18} strokeWidth={1.5} />
           </a>
           <a 
-            href="https://x.com/md_islam94991" 
+            href="." 
             target="_blank" 
             rel="noopener noreferrer"
             className="w-10 h-10 rounded-full border border-zinc-200 dark:border-zinc-800 flex items-center justify-center text-zinc-600 dark:text-gray-400 hover:text-[#a855f7] dark:hover:text-blue-400 hover:border-[#a855f7] dark:hover:border-blue-400 transition-all bg-white dark:bg-zinc-900 shadow-sm"
@@ -37,7 +37,7 @@ export default function Footer() {
             <XIcon size={16} />
           </a>
           <a 
-            href="https://github.com/shakil218" 
+            href="https://github.com/hmdshahdat501-png" 
             target="_blank" 
             rel="noopener noreferrer"
             className="w-10 h-10 rounded-full border border-zinc-200 dark:border-zinc-800 flex items-center justify-center text-zinc-600 dark:text-gray-400 hover:text-[#a855f7] dark:hover:text-blue-400 hover:border-[#a855f7] dark:hover:border-blue-400 transition-all bg-white dark:bg-zinc-900 shadow-sm"

@@ -19,7 +19,7 @@ const projects = [
   description: "A modern e-learning platform providing a wide range of expert-led courses and structured learning paths. Features fluid animations with Framer Motion, secure user authentication via Better Auth, and an intuitive dashboard for tracking educational progress and skill mastery.",
   tags: ["Next.js", "React", "Better Auth", "Framer Motion", "Tailwind CSS", "DaisyUI"],
   image: skillSphere,
-  github: "https://github.com/shakil218/skillsphere-online-learning-platform",
+  github: ".",
   demo: "https://skillsphere-online-learning-web.vercel.app"
 },
   {
@@ -27,7 +27,7 @@ const projects = [
   description: "A comprehensive digital news platform featuring breaking news tickers, category-based navigation, and secure user authentication via Better Auth. Built with Next.js 16 and React 19, it integrates MongoDB for persistent data storage and features a modern, high-impact editorial design with fast-scrolling headlines and interactive community features.",
   tags: ["Next.js", "Better Auth", "MongoDB", "Tailwind CSS", "DaisyUI",],
   image: dragonNews,
-  github: "https://github.com/shakil218/dragon-news-with-next.js",
+  github: ".",
   demo: "https://dragon-news-with-next-js.vercel.app"
 },
   {
@@ -35,7 +35,7 @@ const projects = [
   description: "A thoughtful personal CRM designed to nurture meaningful connections. It features automated tracking of friend interactions, status-based reminders (Overdue, Almost Due, On-Track), and data-driven insights through visual analytics.",
   tags: ["Next.js", "Tailwind CSS", "Recharts", "Context API", "Local Storage"],
   image: keenKeeper,
-  github: "https://github.com/shakil218/keen-keeper-friends-platform",
+  github: ".",
   demo: "https://keen-keeper-friends-platform.vercel.app",
 },
   {
@@ -43,7 +43,7 @@ const projects = [
   description: "A high-performance productivity app store built with Next.js 16 and React 19. It features a curated marketplace of enterprise-grade applications, utilizing Framer Motion for fluid interactions and Lottie for high-fidelity animations. Designed with a clean, professional aesthetic using Tailwind CSS 4 and DaisyUI.",
   tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "DaisyUI", "Lottie"],
   image: phApps,
-  github: "http://github.com/shakil218/ph-apps-store-with-next.js",
+  github: ".",
   demo: "https://ph-apps-store.vercel.app",
 },
   {
@@ -51,7 +51,7 @@ const projects = [
   description: "A comprehensive digital products platform featuring AI writing tools, design assets, and premium templates. Built with a robust frontend architecture including DaisyUI for sleek components and React Toastify for intuitive user feedback.",
   tags: ["React.js", "Tailwind CSS", "DaisyUI", "Lucide React", "JSON API"],
   image: digiTools,
-  github: "https://github.com/shakil218/digital-devtools-platform",
+  github: ".",
   demo: "https://digital-devtools-platform.vercel.app/",
 },
   {
@@ -59,7 +59,7 @@ const projects = [
   "description": "A modern, feature-rich content platform for tech enthusiasts. It features a curated feed of development articles, bookmarking capabilities, and a responsive reading experience with dedicated category tags and read-time estimates.",
   "tags": ["React.js", "Tailwind CSS", "Vite", "React Router"],
   "image": byteBlaze,
-  "github": "https://github.com/shakil218/byteblaze",
+  "github": ".",
   "demo": "https://byteblaze-three.vercel.app"
 },
   {
@@ -68,7 +68,7 @@ const projects = [
       "A high-impact, dark-themed landing page featuring vibrant gradients and modern glassmorphism effects. It showcases advanced CSS techniques for soundwave visualizations and sleek feature cards, built entirely without JavaScript to ensure maximum performance.",
     tags: ["HTML5", "Tailwind CSS", "Modern UI", "Dark Theme"],
     image: techwave,
-    github: "https://github.com/shakil218/TechWave",
+    github: ".",
     demo: "https://tech-wave-one.vercel.app",
   },
   {
@@ -76,7 +76,7 @@ const projects = [
   description: "A premium, minimalist landing page designed for a high-end boutique hotel. It features elegant typography, high-fidelity visual sections for guest testimonials and about-us storytelling, and a fully responsive layout. Built with a focus on clean, semantic architecture to ensure a fast and sophisticated user experience.",
   tags: ["HTML5", "Tailwind CSS", "Responsive Design", "UI/UX"],
   image: hotelBT, 
-  github: "https://github.com/shakil218/hotel-website",
+  github: ".",
   demo: "https://hotel-website-ten-drab.vercel.app",
 },
 ];

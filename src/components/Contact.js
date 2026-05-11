@@ -34,7 +34,7 @@ export default function Contact() {
     );
   }
 
-  const emailAddress = "mdshakilislamsagor218@gmail.com";
+  const emailAddress = "hmdshahdat501@gmail.com";
 
   const handleMailAction = (type) => {
     if (type === 'gmail') {
@@ -134,7 +134,7 @@ export default function Contact() {
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
               className="group relative cursor-pointer"
-              onClick={() => window.open('https://www.linkedin.com/in/md-shakil-islam-sagor/', '_blank')}
+              onClick={() => window.open('https://www.linkedin.com/in/shahdat-hossen/', '_blank')}
             >
               <div className="relative p-[1.5px] rounded-3xl overflow-hidden transition-all duration-500 group-hover:-translate-y-1">
                 <motion.div 
@@ -164,7 +164,7 @@ export default function Contact() {
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
               className="group relative cursor-pointer"
-              onClick={() => window.open('https://x.com/md_islam94991', '_blank')}
+              onClick={() => window.open('.', '_blank')}
             >
               <div className="relative p-[1.5px] rounded-3xl overflow-hidden transition-all duration-500 group-hover:-translate-y-1">
                 <motion.div 

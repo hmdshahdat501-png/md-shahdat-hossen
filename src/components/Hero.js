@@ -12,8 +12,8 @@ import {
   CircleCheck,
 } from "lucide-react";
 import Image from "next/image";
-import image_1 from "../assets/professional-img.png";
-import image_2 from "../assets/professional-image-2.png";
+import image_1 from "../assets/1000055465.png";
+import image_2 from "../assets/1000055466.png";
 
 const roles = [
   "Web Developer",
@@ -83,10 +83,10 @@ export default function Hero() {
           {[
             {
               Icon: Linkedin,
-              href: "https://www.linkedin.com/in/md-shakil-islam-sagor/",
+              href: "https://www.linkedin.com/in/shahdat-hossen/",
             },
-            { Icon: XIcon, href: "https://x.com/md_islam94991" },
-            { Icon: Github, href: "https://github.com/shakil218" },
+            { Icon: XIcon, href: "." },
+            { Icon: Github, href: "https://github.com/hmdshahdat501-png" },
           ].map(({ Icon, href }, i) => (
             <motion.a
               key={i}
@@ -114,7 +114,7 @@ export default function Hero() {
               Hey, I&apos;m
             </motion.p>
             <h1 className="text-4xl md:text-6xl font-extrabold text-primary dark:text-white leading-tight reveal-text">
-              Shakil Islam<span className="inline-block animate-wave">👋</span>
+              Shahdat Hossen<span className="inline-block animate-wave">👋</span>
             </h1>
 
             <div className="text-2xl font-bold text-secondary dark:text-gray-300 flex items-center gap-2">
@@ -229,7 +229,7 @@ export default function Hero() {
                 >
                   <Image
                     src={profileImages[imgIndex]}
-                    alt="Shakil Islam"
+                    alt="Shahdat hossen"
                     fill
                     className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110"
                   />

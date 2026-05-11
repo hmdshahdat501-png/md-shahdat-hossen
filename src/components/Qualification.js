@@ -11,15 +11,15 @@ const qualifications = [
     side: "left"
   },
   {
-    title: "B.A. Honors (Philosophy)",
-    subtitle: "Govt. Azizul Haque College, Bogura",
+    title: "Diploma in Computer Engineering",
+    subtitle: "Surhid AK Polytechnic Institute",
     date: "Recent",
     side: "right"
   },
   {
-    title: "Higher Secondary Certificate (HSC)",
-    subtitle: "Govt. Begum Nurun Nahar Tarkabagish Honors College",
-    date: "2018 - 2020",
+    title: "Secondary School Certificate (SSC)",
+    subtitle: "Suhrid AK College of Science and Technology",
+    date: "2019 - 2020",
     side: "left"
   }
 ];

@@ -7,7 +7,7 @@ const qualifications = [
   {
     title: "Web Development Course",
     subtitle: "Programming Hero",
-    date: "2024",
+    date: "2026",
     side: "left"
   },
   {
